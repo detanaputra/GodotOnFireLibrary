@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="databaseGetData" xml:space="preserve">
+    <value>databaseGetData</value>
+  </data>
+  <data name="databaseGetUserData" xml:space="preserve">
+    <value>databaseGetUserData</value>
+  </data>
+  <data name="databasePushData" xml:space="preserve">
+    <value>databasePushData</value>
+  </data>
+  <data name="databasePushUserData" xml:space="preserve">
+    <value>databasePushUserData</value>
+  </data>
+  <data name="databaseRemoveData" xml:space="preserve">
+    <value>databaseRemoveData</value>
+  </data>
+  <data name="databaseRemoveUserData" xml:space="preserve">
+    <value>databaseRemoveUserData</value>
+  </data>
+  <data name="databaseSetData" xml:space="preserve">
+    <value>databaseSetData</value>
+  </data>
+  <data name="databaseSetUserData" xml:space="preserve">
+    <value>databaseSetUserData</value>
+  </data>
+  <data name="databaseUpdateData" xml:space="preserve">
+    <value>databaseUpdateData</value>
+  </data>
+  <data name="databaseUpdateUserData" xml:space="preserve">
+    <value>databaseUpdateUserData</value>
+  </data>
+  <data name="firestoreAddData" xml:space="preserve">
+    <value>firestoreAddData</value>
+  </data>
+  <data name="firestoreDeleteData" xml:space="preserve">
+    <value>firestoreDeleteData</value>
+  </data>
+  <data name="firestoreDeleteUserData" xml:space="preserve">
+    <value>firestoreDeleteUserData</value>
+  </data>
+  <data name="firestoreReadData" xml:space="preserve">
+    <value>firestoreReadData</value>
+  </data>
+  <data name="firestoreReadUserData" xml:space="preserve">
+    <value>firestoreReadUserData</value>
+  </data>
+  <data name="firestoreSetData" xml:space="preserve">
+    <value>firestoreSetData</value>
+  </data>
+  <data name="firestoreSetUserData" xml:space="preserve">
+    <value>firestoreSetUserData</value>
+  </data>
+  <data name="firestoreUpdateData" xml:space="preserve">
+    <value>firestoreUpdateData</value>
+  </data>
+  <data name="firestoreUpdateUserData" xml:space="preserve">
+    <value>firestoreUpdateUserData</value>
+  </data>
+  <data name="getFirebaseUser" xml:space="preserve">
+    <value>getFirebaseUser</value>
+  </data>
+  <data name="init" xml:space="preserve">
+    <value>init</value>
+  </data>
+  <data name="linkAccountWithEmail" xml:space="preserve">
+    <value>linkAccountWithEmail</value>
+  </data>
+  <data name="linkAccountWithGoogle" xml:space="preserve">
+    <value>linkAccountWithGoogle</value>
+  </data>
+  <data name="logEvent" xml:space="preserve">
+    <value>logEvent</value>
+  </data>
+  <data name="remoteConfigActivate" xml:space="preserve">
+    <value>remoteConfigActivate</value>
+  </data>
+  <data name="remoteConfigFetch" xml:space="preserve">
+    <value>remoteConfigFetch</value>
+  </data>
+  <data name="remoteConfigFetchAndActivate" xml:space="preserve">
+    <value>remoteConfigFetchAndActivate</value>
+  </data>
+  <data name="remoteConfigGetBoolean" xml:space="preserve">
+    <value>remoteConfigGetBoolean</value>
+  </data>
+  <data name="remoteConfigGetDouble" xml:space="preserve">
+    <value>remoteConfigGetDouble</value>
+  </data>
+  <data name="remoteConfigGetLong" xml:space="preserve">
+    <value>remoteConfigGetLong</value>
+  </data>
+  <data name="remoteConfigGetString" xml:space="preserve">
+    <value>remoteConfigGetString</value>
+  </data>
+  <data name="sendEmailVerification" xml:space="preserve">
+    <value>sendEmailVerification</value>
+  </data>
+  <data name="setUserProperty" xml:space="preserve">
+    <value>setUserProperty</value>
+  </data>
+  <data name="signInAnonymously" xml:space="preserve">
+    <value>signInAnonymously</value>
+  </data>
+  <data name="signInGoogle" xml:space="preserve">
+    <value>signInGoogle</value>
+  </data>
+  <data name="signInWithEmail" xml:space="preserve">
+    <value>signInWithEmail</value>
+  </data>
+  <data name="signOut" xml:space="preserve">
+    <value>signOut</value>
+  </data>
+  <data name="signUpWithEmail" xml:space="preserve">
+    <value>signUpWithEmail</value>
+  </data>
+  <data name="testCrash" xml:space="preserve">
+    <value>testCrash</value>
+  </data>
+</root>
